@@ -1,17 +1,19 @@
 import React from "react";
 import {Encabezado} from './Encabezado';
 import {Tabla} from './Tabla';
-// import {Formulario} from './Formulario';
-// import {Boton} from './Boton';
+import {Formulario} from './Formulario';
+import {Boton} from './Boton';
 // import {Pie} from './Pie';
 
 export function Aplicacion(){
     return (
         <React.Fragment>
             <Encabezado/>
-            {/* <Tabla/>
+            <Tabla/>
             <Formulario/>
-            <Tabla/> */}
+            <Tabla/>
+            <Boton/>
+            
             
         </React.Fragment>
     )
